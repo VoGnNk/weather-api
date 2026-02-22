@@ -25,3 +25,14 @@
 
    - `POST /weather` - Get weather data
    - `POST /weather-advice` - Get weather + AI recommendations
+     
+   ## Setup Postman
+
+   1. Import `Weather_API.postman_collection.json`
+   2. Import `Weather_API.postman_environment.json`
+   3. Edit environment variables with YOUR values:
+      - `base_url`: `http://your-server-ip:8000`
+      - `token`: Your security token
+      - `requester_name`: Your full name
+   4. Select "Weather API" environment
+   5. Run requests!
