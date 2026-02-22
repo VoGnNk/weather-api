@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+import os
 import requests 
 from groq import Groq 
 from datetime import datetime
